@@ -77,8 +77,6 @@ qwerty.addEventListener('click', (e) => {
       const tries = document.querySelectorAll('.tries');
       const lostHeart = document.createElement('img');
       lostHeart.src = 'images/lostHeart.png';
-      lostHeart.height = '35px';
-      lostHeart.width = '30px';
       tries[missed].innerHTML = '';
       tries[missed].appendChild(lostHeart);
       missed++; // Increase missed count and display a lost heart

@@ -3,7 +3,10 @@
 
 /* Variables */
 
-
+img {
+  height: 35px;
+  width: 30px;
+}
 
 :root {
   --color-win: #78CF82;
